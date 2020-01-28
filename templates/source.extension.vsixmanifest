@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="templates.arbweb.org" Version="1.0" Language="en-US" Publisher="arbweb.org" />
+        <Identity Id="templates.arbweb.org" Version="2.0" Language="en-US" Publisher="arbweb.org" />
         <DisplayName>arbweb.org Project Templates</DisplayName>
-        <Description xml:space="preserve">Beginners friendly project templates, optimized for debug and build performance, includes:
-- Xamarin forms project templates (Android, iOS, and UWP)</Description>
-        <ReleaseNotes>1st release</ReleaseNotes>
+        <Description xml:space="preserve">Beginners friendly project templates, optimized for debug and build performance.</Description>
         <Icon>128-trans.png</Icon>
     </Metadata>
     <Installation>
@@ -17,9 +15,6 @@
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,17.0)" DisplayName="Visual Studio core editor" />
     </Prerequisites>
     <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Xamarin Forms Android.zip" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Xamarin Forms Shared.zip" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Xamarin Forms iOS.zip" />
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\Xamarin Forms UWP.zip" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\arbweb.zip" />
     </Assets>
 </PackageManifest>
