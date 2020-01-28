@@ -1,0 +1,83 @@
+﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Xamarin Forms Android</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Xamarin Forms Android</Name>
+        <Description>Xamarin Forms Android Project</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>Xamarin Forms Android</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>__TemplateIcon.ico</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Xamarin Forms Shared</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Xamarin Forms Shared</Name>
+        <Description>Xamarin Forms Shared Project</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>Xamarin Forms Shared</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <CreateInPlace>true</CreateInPlace>
+        <Icon>__TemplateIcon.png</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Xamarin Forms iOS</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Xamarin Forms iOS</Name>
+        <Description>Xamarin Forms iOS Project</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>Xamarin Forms iOS</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>__TemplateIcon.png</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+  <VSTemplateContainer TemplateType="Project">
+    <RelativePathOnDisk>Xamarin Forms UWP</RelativePathOnDisk>
+    <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>Xamarin Forms UWP</Name>
+        <Description>Xamarin Forms iOS Project</Description>
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>
+        </ProjectSubType>
+        <SortOrder>1000</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>Xamarin Forms UWP</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <Icon>__TemplateIcon.png</Icon>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>
