@@ -8,6 +8,7 @@ D:\Github\arbweb-org\arbweb.org\templates\bin\Release\templates.pdb
 D:\Github\arbweb-org\arbweb.org\templates\bin\Release\templates.pkgdef
 D:\Github\arbweb-org\arbweb.org\templates\bin\Release\templates.vsix
 D:\Github\arbweb-org\arbweb.org\templates\bin\Release\extension.vsixmanifest
+D:\Github\arbweb-org\arbweb.org\templates\obj\Release\templates.csprojAssemblyReference.cache
 D:\Github\arbweb-org\arbweb.org\templates\obj\Release\_EmptyResource.resources
 D:\Github\arbweb-org\arbweb.org\templates\obj\Release\templates.csproj.GenerateResource.cache
 D:\Github\arbweb-org\arbweb.org\templates\obj\Release\templates.dll
