@@ -1,9 +1,0 @@
-﻿<Application x:Class="wpf.arbweb.org._c_app"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:wpf.arbweb.org"
-             ShutdownMode="OnExplicitShutdown">
-    <Application.Resources>
-
-    </Application.Resources>
-</Application>
