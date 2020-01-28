@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             x:Class="$safeprojectname$.MainPage"
+             BackgroundColor="Cornsilk">
+
+    <StackLayout Margin="20"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center"
+                 BackgroundColor="Azure"
+                 Padding="50">
+        <Label FontSize="40"
+               TextColor="Green"
+               HorizontalOptions="Center">مرحبا</Label>
+
+        <Label FontSize="15"
+               HorizontalOptions="Center">Xamarin Forms Native App!</Label>
+
+        <Button HorizontalOptions="Center"
+                CornerRadius="5" Margin="10"
+                Text="إضغط هنا"
+                Clicked="Button_Clicked"></Button>
+    </StackLayout>
+</ContentPage>
