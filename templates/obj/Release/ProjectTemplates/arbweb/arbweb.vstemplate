@@ -1,7 +1,7 @@
 <VSTemplate Version="2.0.0" Type="ProjectGroup"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>
-	<Name>arbweb.org Xamarin Forms Templte</Name>
+	<Name>arbweb.org Xamarin Forms</Name>
 	<Description>Cross Platform Xamarin Forms Template</Description>
         <Icon>__TemplateIcon.png</Icon>
 	<ProjectType>CSharp</ProjectType>
@@ -9,16 +9,16 @@
     </TemplateData>
     <TemplateContent>
         <ProjectCollection>
-            <ProjectTemplateLink ProjectName="$projectname$.Shared">
+            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$">
 		Shared\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink ProjectName="$projectname$.Android">
+            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$.Android">
 		Android\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink ProjectName="$projectname$.iOS">
+            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$.iOS">
 		iOS\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink ProjectName="$projectname$.UWP">
+            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$.UWP">
 		UWP\MyTemplate.vstemplate
             </ProjectTemplateLink>
         </ProjectCollection>

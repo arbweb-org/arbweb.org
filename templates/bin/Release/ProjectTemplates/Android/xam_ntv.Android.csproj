@@ -90,7 +90,7 @@
     <AndroidResource Include="Resources\drawable\xamarin_logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\xam_ntv\xam_ntv.csproj">
+    <ProjectReference Include="..\$ext_safeprojectname$\$ext_safeprojectname$.csproj">
       <Project>{2D47ADDB-A1DF-4C80-BC20-072210ADAB5D}</Project>
       <Name>xam_ntv</Name>
     </ProjectReference>

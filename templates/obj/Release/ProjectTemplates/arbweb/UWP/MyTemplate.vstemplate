@@ -6,7 +6,7 @@
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
-    <SortOrder>1000</SortOrder>
+    <SortOrder>4</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
     <DefaultName>Xamarin Forms UWP</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
