@@ -1,14 +1,14 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Hidden>true</Hidden>
-    <Name>Xamarin Forms UWP</Name>
-    <Description>Xamarin Forms iOS Project</Description>
+    <Name>arbweb.org Xamarin UWP Project</Name>
+    <Description>arbweb.org Xamarin UWP Project</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>4</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xamarin Forms UWP</DefaultName>
+    <DefaultName>arbweb.org Xamarin UWP Project</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>

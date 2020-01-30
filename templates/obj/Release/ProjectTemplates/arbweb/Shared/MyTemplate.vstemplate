@@ -1,14 +1,14 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Hidden>true</Hidden>
-    <Name>Xamarin Forms Shared</Name>
-    <Description>Xamarin Forms Shared Project</Description>
+    <Name>arbweb.org Xamarin Shared Project</Name>
+    <Description>arbweb.org Xamarin Shared Project</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>1</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xamarin Forms Shared</DefaultName>
+    <DefaultName>arbweb.org Xamarin Shared Project</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>

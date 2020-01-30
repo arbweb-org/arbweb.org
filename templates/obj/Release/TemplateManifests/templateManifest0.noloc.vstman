@@ -1,31 +1,18 @@
 ﻿<VSTemplateManifest Version="1.0" xmlns="http://schemas.microsoft.com/developer/vstemplatemanifest/2015">
-  <VSTemplateContainer TemplateType="ProjectGroup">
-    <RelativePathOnDisk>arbweb</RelativePathOnDisk>
-    <TemplateFileName>arbweb.vstemplate</TemplateFileName>
-    <VSTemplateHeader>
-      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
-        <Name>arbweb.org Xamarin Forms</Name>
-        <Description>Cross Platform Xamarin Forms Template</Description>
-        <Icon>__TemplateIcon.png</Icon>
-        <ProjectType>CSharp</ProjectType>
-        <CreateNewFolder>true</CreateNewFolder>
-      </TemplateData>
-    </VSTemplateHeader>
-  </VSTemplateContainer>
   <VSTemplateContainer TemplateType="Project">
     <RelativePathOnDisk>arbweb\Android</RelativePathOnDisk>
     <TemplateFileName>MyTemplate.vstemplate</TemplateFileName>
     <VSTemplateHeader>
       <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
         <Hidden>true</Hidden>
-        <Name>Xamarin Forms Android</Name>
-        <Description>Xamarin Forms Android Project</Description>
+        <Name>arbweb.org Xamarin Android Project</Name>
+        <Description>arbweb.org Xamarin Android Project</Description>
         <ProjectType>CSharp</ProjectType>
         <ProjectSubType>
         </ProjectSubType>
         <SortOrder>2</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
-        <DefaultName>Xamarin Forms Android</DefaultName>
+        <DefaultName>arbweb.org Xamarin Android Project</DefaultName>
         <ProvideDefaultName>true</ProvideDefaultName>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -39,14 +26,14 @@
     <VSTemplateHeader>
       <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
         <Hidden>true</Hidden>
-        <Name>Xamarin Forms iOS</Name>
-        <Description>Xamarin Forms iOS Project</Description>
+        <Name>arbweb.org Xamarin iOS Project</Name>
+        <Description>arbweb.org Xamarin iOS Project</Description>
         <ProjectType>CSharp</ProjectType>
         <ProjectSubType>
         </ProjectSubType>
         <SortOrder>3</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
-        <DefaultName>Xamarin Forms iOS</DefaultName>
+        <DefaultName>arbweb.org Xamarin iOS Project</DefaultName>
         <ProvideDefaultName>true</ProvideDefaultName>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -60,14 +47,14 @@
     <VSTemplateHeader>
       <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
         <Hidden>true</Hidden>
-        <Name>Xamarin Forms Shared</Name>
-        <Description>Xamarin Forms Shared Project</Description>
+        <Name>arbweb.org Xamarin Shared Project</Name>
+        <Description>arbweb.org Xamarin Shared Project</Description>
         <ProjectType>CSharp</ProjectType>
         <ProjectSubType>
         </ProjectSubType>
         <SortOrder>1</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
-        <DefaultName>Xamarin Forms Shared</DefaultName>
+        <DefaultName>arbweb.org Xamarin Shared Project</DefaultName>
         <ProvideDefaultName>true</ProvideDefaultName>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -82,14 +69,14 @@
     <VSTemplateHeader>
       <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
         <Hidden>true</Hidden>
-        <Name>Xamarin Forms UWP</Name>
-        <Description>Xamarin Forms iOS Project</Description>
+        <Name>arbweb.org Xamarin UWP Project</Name>
+        <Description>arbweb.org Xamarin UWP Project</Description>
         <ProjectType>CSharp</ProjectType>
         <ProjectSubType>
         </ProjectSubType>
         <SortOrder>4</SortOrder>
         <CreateNewFolder>true</CreateNewFolder>
-        <DefaultName>Xamarin Forms UWP</DefaultName>
+        <DefaultName>arbweb.org Xamarin UWP Project</DefaultName>
         <ProvideDefaultName>true</ProvideDefaultName>
         <LocationField>Enabled</LocationField>
         <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
@@ -97,4 +84,17 @@
       </TemplateData>
     </VSTemplateHeader>
   </VSTemplateContainer>
-</VSTemplateManifest>/VSTemplateManifest>
+  <VSTemplateContainer TemplateType="ProjectGroup">
+    <RelativePathOnDisk>arbweb</RelativePathOnDisk>
+    <TemplateFileName>arbweb.vstemplate</TemplateFileName>
+    <VSTemplateHeader>
+      <TemplateData xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+        <Name>arbweb.org Xamarin Forms</Name>
+        <Description>Cross Platform Xamarin Forms Template</Description>
+        <Icon>__TemplateIcon.png</Icon>
+        <ProjectType>CSharp</ProjectType>
+        <CreateNewFolder>true</CreateNewFolder>
+      </TemplateData>
+    </VSTemplateHeader>
+  </VSTemplateContainer>
+</VSTemplateManifest>

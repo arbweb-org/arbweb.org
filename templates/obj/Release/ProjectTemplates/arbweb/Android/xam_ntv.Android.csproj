@@ -8,7 +8,7 @@
     <TemplateGuid>{9AA2D3C6-3393-45F1-8E7C-5A9901728795}</TemplateGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>$safeprojectname$</RootNamespace>
-    <AssemblyName>xam_ntv.Android</AssemblyName>
+    <AssemblyName>$safeprojectname$</AssemblyName>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -92,7 +92,7 @@
   <ItemGroup>
     <ProjectReference Include="..\$ext_safeprojectname$\$ext_safeprojectname$.csproj">
       <Project>{2D47ADDB-A1DF-4C80-BC20-072210ADAB5D}</Project>
-      <Name>xam_ntv</Name>
+      <Name>$ext_safeprojectname$</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

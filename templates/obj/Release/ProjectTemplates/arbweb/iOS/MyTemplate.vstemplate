@@ -1,63 +1,40 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
     <Hidden>true</Hidden>
-    <Name>Xamarin Forms iOS</Name>
-    <Description>Xamarin Forms iOS Project</Description>
+    <Name>arbweb.org Xamarin iOS Project</Name>
+    <Description>arbweb.org Xamarin iOS Project</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>
     <SortOrder>3</SortOrder>
     <CreateNewFolder>true</CreateNewFolder>
-    <DefaultName>Xamarin Forms iOS</DefaultName>
+    <DefaultName>arbweb.org Xamarin iOS Project</DefaultName>
     <ProvideDefaultName>true</ProvideDefaultName>
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.png</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="xam_ntv.UWP.csproj" File="xam_ntv.UWP.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="false" TargetFileName="add.png">add.png</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml">App.xaml</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="App.xaml.cs">App.xaml.cs</ProjectItem>
-      <Folder Name="Assets" TargetFolderName="Assets">
-        <ProjectItem ReplaceParameters="false" TargetFileName="LargeTile.scale-100.png">LargeTile.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="LargeTile.scale-200.png">LargeTile.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="LargeTile.scale-400.png">LargeTile.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SmallTile.scale-100.png">SmallTile.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SmallTile.scale-200.png">SmallTile.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SmallTile.scale-400.png">SmallTile.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-100.png">SplashScreen.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-200.png">SplashScreen.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="SplashScreen.scale-400.png">SplashScreen.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square150x150Logo.scale-100.png">Square150x150Logo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square150x150Logo.scale-200.png">Square150x150Logo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square150x150Logo.scale-400.png">Square150x150Logo.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.altform-unplated_targetsize-16.png">Square44x44Logo.altform-unplated_targetsize-16.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.altform-unplated_targetsize-256.png">Square44x44Logo.altform-unplated_targetsize-256.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.altform-unplated_targetsize-48.png">Square44x44Logo.altform-unplated_targetsize-48.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.scale-100.png">Square44x44Logo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.scale-200.png">Square44x44Logo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.scale-400.png">Square44x44Logo.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.targetsize-16.png">Square44x44Logo.targetsize-16.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.targetsize-256.png">Square44x44Logo.targetsize-256.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Square44x44Logo.targetsize-48.png">Square44x44Logo.targetsize-48.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-100.png">StoreLogo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-200.png">StoreLogo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="StoreLogo.scale-400.png">StoreLogo.scale-400.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-100.png">Wide310x150Logo.scale-100.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-200.png">Wide310x150Logo.scale-200.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Wide310x150Logo.scale-400.png">Wide310x150Logo.scale-400.png</ProjectItem>
-      </Folder>
-      <ProjectItem ReplaceParameters="false" TargetFileName="cancel.png">cancel.png</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml">MainPage.xaml</ProjectItem>
-      <ProjectItem ReplaceParameters="true" TargetFileName="MainPage.xaml.cs">MainPage.xaml.cs</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="Package.appxmanifest">Package.appxmanifest</ProjectItem>
+    <Project TargetFileName="xam_ntv.iOS.csproj" File="xam_ntv.iOS.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppDelegate.cs">AppDelegate.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Entitlements.plist">Entitlements.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Info.plist">Info.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
-        <ProjectItem ReplaceParameters="true" TargetFileName="Default.rd.xml">Default.rd.xml</ProjectItem>
       </Folder>
-      <ProjectItem ReplaceParameters="false" TargetFileName="save.png">save.png</ProjectItem>
-      <ProjectItem ReplaceParameters="false" TargetFileName="xamarin_logo.png">xamarin_logo.png</ProjectItem>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.storyboard">LaunchScreen.storyboard</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_about.png">tab_about.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_about@2x.png">tab_about@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_about@3x.png">tab_about@3x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_feed.png">tab_feed.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_feed@2x.png">tab_feed@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tab_feed@3x.png">tab_feed@3x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="xamarin_logo.png">xamarin_logo.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="xamarin_logo@2x.png">xamarin_logo@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="xamarin_logo@3x.png">xamarin_logo@3x.png</ProjectItem>
+      </Folder>
     </Project>
   </TemplateContent>
 </VSTemplate>

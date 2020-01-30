@@ -12,13 +12,13 @@
             <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$">
 		Shared\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$.Android">
+            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$_Android">
 		Android\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$.iOS">
+            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$_iOS">
 		iOS\MyTemplate.vstemplate
             </ProjectTemplateLink>
-            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$.UWP">
+            <ProjectTemplateLink CopyParameters="true" ProjectName="$projectname$_UWP">
 		UWP\MyTemplate.vstemplate
             </ProjectTemplateLink>
         </ProjectCollection>

@@ -1,6 +1,6 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="templates.arbweb.org" Version="2.0" Language="en-US" Publisher="arbweb.org" />
+    <Identity Id="templates.arbweb.org" Version="3.0.0" Language="en-US" Publisher="arbweb.org" />
     <DisplayName>arbweb.org Project Templates</DisplayName>
     <Description xml:space="preserve">Beginners friendly project templates, optimized for debug and build performance.</Description>
     <Icon>128-trans.png</Icon>
