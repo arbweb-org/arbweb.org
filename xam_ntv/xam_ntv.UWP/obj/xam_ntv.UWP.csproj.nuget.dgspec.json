@@ -45,7 +45,7 @@
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.1.9, )"
+              "version": "[6.2.9, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -53,7 +53,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.4.0.991537, )"
             }
           },
           "imports": [
@@ -138,7 +138,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.3.0.908675, )"
+              "version": "[4.4.0.991537, )"
             }
           },
           "imports": [

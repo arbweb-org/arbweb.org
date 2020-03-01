@@ -1,0 +1,9 @@
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\bin\Release\netstandard2.0\org.arbweb.xam.ui.deps.json
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\bin\Release\netstandard2.0\org.arbweb.xam.ui.dll
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\bin\Release\netstandard2.0\org.arbweb.xam.ui.pdb
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\obj\Release\netstandard2.0\org.arbweb.xam.ui.csprojAssemblyReference.cache
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\obj\Release\netstandard2.0\org.arbweb.xam.ui.AssemblyInfoInputs.cache
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\obj\Release\netstandard2.0\org.arbweb.xam.ui.AssemblyInfo.cs
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\obj\Release\netstandard2.0\XamlC.stamp
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\obj\Release\netstandard2.0\org.arbweb.xam.ui.dll
+D:\Github\arbweb-org\arbweb.org\org.arbweb.xam.ui\org.arbweb.xam.ui\obj\Release\netstandard2.0\org.arbweb.xam.ui.pdb

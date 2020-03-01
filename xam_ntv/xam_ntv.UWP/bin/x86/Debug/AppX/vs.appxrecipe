@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>282EB960FC463E4A98696911A1F4782F1365C7CDC0E1270B78F15019C717D279</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>28555E5EC4DAAD5976FB09D211DBC24B47BA662521A47D59EE7C8072339EAEB2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a3d3e43e-490d-4025-859c-69ce80af67db_1.0.0.0_x86__hm4fyth8s0m0a</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a3d3e43e-490d-4025-859c-69ce80af67db_hm4fyth8s0m0a!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a3d3e43e-490d-4025-859c-69ce80af67db</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-28T17:23:02.718</Modified>
+      <Modified>2020-01-31T21:19:48.985</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\xam_ntv.UWP.exe">
       <PackagePath>entrypoint\xam_ntv.UWP.exe</PackagePath>
-      <Modified>2020-01-28T17:22:27.185</Modified>
+      <Modified>2020-01-31T21:19:32.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\akcor\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -720,7 +720,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv\bin\Debug\netstandard2.0\xam_ntv.dll">
       <PackagePath>xam_ntv.dll</PackagePath>
-      <Modified>2020-01-28T17:31:53.318</Modified>
+      <Modified>2020-01-31T21:19:12.988</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -895,15 +895,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-01-28T17:22:26.650</Modified>
+      <Modified>2020-01-31T21:19:32.338</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-01-28T17:22:26.651</Modified>
+      <Modified>2020-01-31T21:19:32.339</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-01-28T17:22:26.653</Modified>
+      <Modified>2020-01-31T21:19:32.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -919,11 +919,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-28T17:22:36.431</Modified>
+      <Modified>2020-01-31T21:19:40.359</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Github\arbweb-org\arbweb.org\xam_ntv\xam_ntv.UWP\bin\x86\Debug\Core\xam_ntv.UWP.exe">
       <PackagePath>xam_ntv.UWP.exe</PackagePath>
-      <Modified>2020-01-28T17:23:02.620</Modified>
+      <Modified>2020-01-31T21:19:48.932</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
