@@ -1,4 +1,4 @@
-name: CI
+name: CICD
 
 on:
   push:
@@ -13,7 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: Run a one-line script
-      run: dir
-      #run: dotnet build --configuration Release
-    - run: echo 'hello world'
+    - name: build the solution
+      run: |
+	    dir
+        cd arbweb-org
+        dir
