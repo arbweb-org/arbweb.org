@@ -16,3 +16,5 @@ jobs:
     - name: Run a one-line script
 	  run: dir
       #run: dotnet build --configuration Release
+
+	- run: echo 'hello world'
