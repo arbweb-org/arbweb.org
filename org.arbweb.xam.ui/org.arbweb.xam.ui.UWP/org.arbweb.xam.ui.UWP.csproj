@@ -130,12 +130,15 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
     </PackageReference>
-    <PackageReference Include="org.arbweb.xam.ui.Core">
-      <Version>0.5.1</Version>
-    </PackageReference>
     <PackageReference Include="Xamarin.Forms">
-      <Version>4.5.0.356</Version>
+      <Version>4.4.0.991640</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\org.arbweb.xam.ui\org.arbweb.xam.ui.csproj">
+      <Project>{e6e754b9-1976-4d44-8f87-7eaf6e994897}</Project>
+      <Name>org.arbweb.xam.ui</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
