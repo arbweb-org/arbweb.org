@@ -15,5 +15,5 @@ jobs:
 
     - name: build the solution
       run: |
-        cd "d:\a\arbweb.org\arbweb.org"
-        dir
+        cd "d:\a\arbweb.org\arbweb.org\arbweb-org"
+        dotnet build
