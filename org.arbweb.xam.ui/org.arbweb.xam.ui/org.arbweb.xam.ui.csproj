@@ -6,6 +6,8 @@
     <Version>0.5.1</Version>
     <PackageId>org.arbweb.xam.ui</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>false</RunAnalyzersDuringLiveAnalysis>
   </PropertyGroup>
 
   <ItemGroup>
