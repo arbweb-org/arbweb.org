@@ -15,5 +15,5 @@ jobs:
 
     - name: build the solution
       run: |
-        cd "d:\a\arbweb.org\arbweb.org\arbweb-org"
+        cd "d:\a\arbweb.org\arbweb.org\org.arbweb.xam.ui"
         dotnet build
