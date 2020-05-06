@@ -15,6 +15,5 @@ jobs:
 
     - name: build the solution
       run: |
-        cd "d:\a"
-        dir
+        cd "d:\a\arbweb.org"
         dir
