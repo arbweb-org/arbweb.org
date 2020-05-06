@@ -15,7 +15,6 @@ jobs:
 
     - name: build the solution
       run: |
-	    dir
-        cd arbweb-org
+        cd "d:\a"
         dir
         dir
