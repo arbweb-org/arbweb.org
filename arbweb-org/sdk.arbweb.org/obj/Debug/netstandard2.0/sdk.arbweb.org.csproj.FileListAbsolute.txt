@@ -1,8 +1,0 @@
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\bin\Debug\netstandard2.0\sdk.arbweb.org.deps.json
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\bin\Debug\netstandard2.0\sdk.arbweb.org.dll
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\bin\Debug\netstandard2.0\sdk.arbweb.org.pdb
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\obj\Debug\netstandard2.0\sdk.arbweb.org.csprojAssemblyReference.cache
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\obj\Debug\netstandard2.0\sdk.arbweb.org.AssemblyInfoInputs.cache
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\obj\Debug\netstandard2.0\sdk.arbweb.org.AssemblyInfo.cs
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\obj\Debug\netstandard2.0\sdk.arbweb.org.dll
-D:\Github\arbweb-org\arbweb.org\arbweb-org\sdk.arbweb.org\obj\Debug\netstandard2.0\sdk.arbweb.org.pdb

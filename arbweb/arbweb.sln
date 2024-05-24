@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arbweb_blazor", "arbweb_blazor\arbweb_blazor.csproj", "{FD391CF1-BD99-47FE-A485-56491D0F1E87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arbweb_api", "arbweb_api\arbweb_api.csproj", "{D36F761C-0D01-478F-B70D-6C8FDA3398C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD391CF1-BD99-47FE-A485-56491D0F1E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD391CF1-BD99-47FE-A485-56491D0F1E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD391CF1-BD99-47FE-A485-56491D0F1E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD391CF1-BD99-47FE-A485-56491D0F1E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D36F761C-0D01-478F-B70D-6C8FDA3398C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D36F761C-0D01-478F-B70D-6C8FDA3398C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D36F761C-0D01-478F-B70D-6C8FDA3398C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D36F761C-0D01-478F-B70D-6C8FDA3398C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D31EF772-5979-4382-B7E9-7877B2ACE021}
+	EndGlobalSection
+EndGlobal
