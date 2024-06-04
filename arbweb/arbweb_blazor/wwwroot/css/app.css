@@ -14,10 +14,11 @@ body {
 ._c_container {
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    overflow: hidden;
 }
 
 #app {
+    height: calc(100vh - 120px);
 }
 
 select {
@@ -99,6 +100,16 @@ input[type="radio"], input[type="checkbox"] {
 ._c_invisible_scroll::-webkit-scrollbar {
     display: none;
 }
+
+#top_bar {
+    direction: rtl;
+}
+
+    #top_bar div {
+        padding: 6px;
+        margin:6px;
+        cursor: pointer
+    }
 
 ._c_logo {
     width: 315px;

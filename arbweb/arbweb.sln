@@ -5,7 +5,7 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arbweb_api", "arbweb_api\arbweb_api.csproj", "{D36F761C-0D01-478F-B70D-6C8FDA3398C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arbweb_blazor", "arbweb_blazor\arbweb_blazor.csproj", "{BB8AB447-9DB4-4DCC-8E18-C1121AC7EC76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arbweb_blazor", "arbweb_blazor\arbweb_blazor.csproj", "{BB8AB447-9DB4-4DCC-8E18-C1121AC7EC76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="/css/bootstrap/bootstrap-icons.min.css" />
 
     <link rel="stylesheet" href="/css/app.css" />
+    <link href="/arbweb_blazor.styles.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/monaco/min/vs/editor/editor.main.css" />
+
     <link rel="icon" type="image/png" href="/img/favicon.ico" />
 
     <style>
@@ -35,23 +39,22 @@
     <div class="_c_container">
         <div class="_c_header">
             <div class="d-flex justify-content-between align-items-center _c_inner_header">
-                <div class="d-flex align-items-center _c_inner_header">
-                    <div class="_c_input_box" style="width:200px">
-                        <input class="_c_borderlessinp" style="width:160px" />
-                        <i class="bi bi-search" style="font-size:16px"></i>
-                    </div>
+                <div class="d-flex align-items-center _c_input_box" style="width:200px; direction:rtl">
+                    <input class="_c_borderlessinp" style="width:166px" type="text" placeholder="أبحث عن؟" />
+                    <i class="bi bi-search" style="font-size:16px"></i>
                 </div>
-                <div class="d-flex align-items-center _c_inner_header" style="direction:rtl">
-                    <div style="margin: 12px; font-weight:bold">الرئيسية</div>
-                    <div style="margin: 12px">التطبيقات</div>
-                    <div style="margin: 12px">المختبر</div>
-                    <div style="margin: 12px">اتصل بنا</div>
+
+                <div id="top_bar" class="d-flex align-items-center">
+                    <div onclick="v_navigate(0)">الرئيسية</div>
+                    <div onclick="v_navigate(1)">التطبيقات</div>
+                    <div onclick="v_navigate(2)">المختبر</div>
+                    <div onclick="v_navigate(3)">اتصل بنا</div>
                 </div>
             </div>
         </div>
 
-        <div id="app">
-
+        <div id="app" class="d-flex justify-content-center align-items-center">
+            <object type="image/svg+xml" data="/img/spinner.svg" style="width:150px"></object>
         </div>
 
         <div class="_c_footer">
@@ -60,6 +63,60 @@
 
         <div class="_c_logo">&nbsp;</div>
     </div>
+
+    <script src="/monaco/min/vs/loader.js"></script>
+    <script>
+        require.config({
+            paths: {
+                "vs": "/monaco/min/vs"
+            }
+        });
+    </script>
+    <script src="/monaco/min/vs/editor/editor.main.nls.js"></script>
+    <script src="/monaco/min/vs/editor/editor.main.js"></script>
+
+    <script>
+        const pages = ["/", "/apps", "/lab", "/contact_us"];
+        let editor = null;
+
+        function v_create_editor() {
+            let monacoOptions = {
+                language: 'html',
+                automaticLayout: true,
+                minimap: { enebled: false }
+            }
+
+            editor = monaco.editor.create(document.getElementById('code_editor'), monacoOptions);
+        }
+
+        function v_navigate(ndx) {
+            window.location.href = pages[ndx];
+        }
+
+        function v_js_loaded() {
+            const top_bar = document.getElementById("top_bar");
+            const children = top_bar.children;
+            const url = window.location.href;
+
+            for (i = children.length - 1; i > 0; i--) {
+                if (url.includes(pages[i])) {
+                    children[i].style["font-weight"] = "bold";
+                    home = false;
+                    break;
+                }
+            };
+
+            if (home) {
+                children[0].style["font-weight"] = "bold";
+            }
+        }
+
+        function v_cs_loaded(params) {
+
+        }
+
+        v_js_loaded();
+    </script>
 
     <script src="/_framework/blazor.webassembly.js"></script>
 </body>

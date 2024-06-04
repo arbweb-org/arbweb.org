@@ -1,0 +1,18 @@
+﻿@page "/lab"
+@inject IJSRuntime JS
+
+<div style="border-width: 1px; border-style: solid; border-color: silver; border-radius: 16px; overflow: hidden">
+    <div style="display:inline-block; width:500px; height:600px; background-color: cornsilk" id="code_editor">
+
+    </div>
+    <div style="display:inline-block; width:500px; height:600px">
+
+    </div>
+</div>
+
+@code{
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        await JS.InvokeVoidAsync("v_create_editor");
+    }
+}
