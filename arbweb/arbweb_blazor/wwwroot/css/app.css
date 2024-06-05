@@ -18,7 +18,7 @@ body {
 }
 
 #app {
-    height: calc(100vh - 120px);
+    height: calc(100vh - 100px);
 }
 
 select {
@@ -45,7 +45,9 @@ select {
     border: none !important;
     border-color: transparent !important;
     outline: none !important;
-    user-select: text
+    user-select: text;
+    line-height: 16px;
+    font-size: 16px;
 }
 
 ::-webkit-input-placeholder {
@@ -72,6 +74,7 @@ input[type="radio"], input[type="checkbox"] {
     font-weight: normal !important;
     height: 40px;
     font-size: 16px;
+    line-height: 16px;
     width: 100%
 }
 
@@ -129,14 +132,18 @@ input[type="radio"], input[type="checkbox"] {
     border-color: silver;
     padding-left: 300px;
     padding-right: 300px;
+    font-size: 16px;
+    line-height: 16px
 }
 
 ._c_inner_header {
     height: 60px;
+    font-size: 16px;
+    line-height: 16px;
 }
 
 ._c_footer {
-    height: 60px;
+    height: 40px;
     border-top: solid;
     border-width: 1px;
     border-color: silver;
@@ -144,5 +151,7 @@ input[type="radio"], input[type="checkbox"] {
     bottom: 0px;
     width: 100%;
     text-align: center;
-    padding-top: 16px
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 14px
 }

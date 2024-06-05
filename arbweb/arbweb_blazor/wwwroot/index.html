@@ -83,7 +83,7 @@
             let monacoOptions = {
                 language: 'html',
                 automaticLayout: true,
-                minimap: { enebled: false }
+                minimap: { enabled: false },
             }
 
             editor = monaco.editor.create(document.getElementById('code_editor'), monacoOptions);
@@ -98,6 +98,7 @@
             const children = top_bar.children;
             const url = window.location.href;
 
+            var home = true;
             for (i = children.length - 1; i > 0; i--) {
                 if (url.includes(pages[i])) {
                     children[i].style["font-weight"] = "bold";
