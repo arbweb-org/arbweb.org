@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- قم بتضمين ملفات التنسيق المفضلة لديك هنا -->
+        <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+
+        <!-- قم بكتابة عناصر التنسيق هنا -->
+        <style>
+            body{
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #clock {
+                width: 500px; height: 500px
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- رسم الساعة -->
+        <svg id="clock" width="200" height="200" viewBox="-100 -100 200 200">
+            <!-- الدائرة الخارجية -->
+            <circle r="52" stroke="LightGray" stroke-width="4" fill="white" />
+
+            <g stroke-linecap="round">
+                <!-- عقرب الساعات -->
+                <line id="hours" stroke="Gainsboro" y2="-20" stroke-width="6" />
+                <!-- عقرب الدقائق -->
+                <line id="minutes" stroke="Gainsboro" y2="-35" stroke-width="5" />
+                <!-- عقرب الثواني -->
+                <line id="seconds" stroke="gold" y2="-43" stroke-width="3" />
+            </g>
+        </svg>
+
+        <!-- قم بتضمين ملفات الجافاسكريبت المفضلة لديك هنا -->
+
+        <!-- قم بكتابة كود الجافاسكربت هنا -->
+        <script>
+            var hoursElement;   // عقرب الساعات
+            var minutesElement; // عقرب الدقائق
+            var secondsElement; // عقرب الثواني
+
+            initialize();
+
+            function initialize(){
+                hoursElement = document.getElementById(`hours`);
+                minutesElement = document.getElementById(`minutes`);
+                secondsElement = document.getElementById(`seconds`);
+
+                // استدعاء دالة الرسم كل ثانية
+                setInterval(refresh, 1000);
+            }
+
+            function refresh(){
+                var now = new Date();
+
+                var seconds = now.getSeconds();
+                var minutes = now.getMinutes() + (seconds / 60);
+                var hours = (now.getHours() % 12) + (minutes / 60);
+                
+                // دوران عقارب الساعة بالزاوية المطلوبة
+                secondsElement.setAttribute(`transform`, `rotate(${(360 / 60) * seconds})`);
+                minutesElement.setAttribute(`transform`, `rotate(${(360 / 60) * minutes})`);
+                hoursElement.setAttribute(`transform`, `rotate(${(360 / 12) * hours})`);
+            }
+        </script>
+    </body>
+</html>

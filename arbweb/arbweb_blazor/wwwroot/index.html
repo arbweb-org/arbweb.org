@@ -79,14 +79,35 @@
         const pages = ["/", "/apps", "/lab", "/contact_us"];
         let editor = null;
 
-        function v_create_editor() {
-            let monacoOptions = {
-                language: 'html',
+        function v_create_editor(lang, value) {
+            monaco.editor.defineTheme('my-lt', {
+                base: 'vs',
+                inherit: true,
+                rules: [],
+                colors: {
+                    'editor.background': '#FDF5E6',
+                },
+            });
+
+            const monacoOptions = {
+                language: lang,
                 automaticLayout: true,
                 minimap: { enabled: false },
+                theme: 'my-lt',
+                value: value
             }
 
             editor = monaco.editor.create(document.getElementById('code_editor'), monacoOptions);
+
+            editor.onDidChangeModelContent(editor_review);
+
+            editor_review();
+        }
+
+        function editor_review(args) {
+            var l_val = editor.getValue();
+            var l_ifr = document.getElementById('code_output');
+            l_ifr.setAttribute('srcdoc', l_val);
         }
 
         function v_navigate(ndx) {
