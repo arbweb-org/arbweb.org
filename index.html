@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="one-verification" content="98f74a33" />
+    <title>الويب العربي - دعم المحتوى العربي على الإنترنت</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <span class="logo-icon">📚</span>
+                    <span class="logo-text">الويب العربي</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home" class="nav-link">الرئيسية</a>
+                    <a href="#about" class="nav-link">من نحن</a>
+                    <a href="#content" class="nav-link">المحتوى</a>
+                    <a href="#community" class="nav-link">المجتمع</a>
+                    <a href="#contact" class="nav-link">تواصل معنا</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home" class="nav-link">الرئيسية</a>
+                <a href="#about" class="nav-link">من نحن</a>
+                <a href="#content" class="nav-link">المحتوى</a>
+                <a href="#community" class="nav-link">المجتمع</a>
+                <a href="#contact" class="nav-link">تواصل معنا</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    دعم المحتوى العربي
+                    <span class="hero-highlight">على الإنترنت</span>
+                </h1>
+                <p class="hero-description">
+                    منصة شاملة لدعم وتطوير المحتوى العربي الرقمي، نهدف إلى إثراء الإنترنت بمحتوى عربي عالي الجودة ومتنوع
+                </p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary">ابدأ الآن</a>
+                    <a href="#content" class="btn btn-secondary">اكتشف المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="about" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">لماذا نحن؟</h2>
+                <p class="section-description">
+                    نقدم حلولاً شاملة لدعم المحتوى العربي وتطويره على الإنترنت
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📖</div>
+                    <h3 class="feature-title">محتوى عالي الجودة</h3>
+                    <p class="feature-description">
+                        نركز على إنتاج ونشر محتوى عربي متميز يلبي احتياجات المجتمع العربي الرقمي
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👥</div>
+                    <h3 class="feature-title">مجتمع متفاعل</h3>
+                    <p class="feature-description">
+                        نبني مجتمعاً من المبرمجين والمصممين العرب لتبادل الخبرات والتعاون في إنتاج المحتوى
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3 class="feature-title">وصول عالمي</h3>
+                    <p class="feature-description">
+                        نساعد في نشر المحتوى العربي للوصول إلى جمهور أوسع حول العالم
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Types Section -->
+    <section id="content" class="content-types">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">أنواع المحتوى المدعوم</h2>
+                <p class="section-description">
+                    ندعم جميع أشكال المحتوى العربي الرقمي
+                </p>
+            </div>
+
+            <div class="content-grid">
+                <div class="content-card">
+                    <div class="content-icon">✍️</div>
+                    <h3 class="content-title">المقالات والمدونات</h3>
+                    <p class="content-description">
+                        مقالات متنوعة في مختلف المجالات باللغة العربية
+                    </p>
+                </div>
+
+                <div class="content-card">
+                    <div class="content-icon">🎓</div>
+                    <h3 class="content-title">المحتوى التعليمي</h3>
+                    <p class="content-description">
+                        دورات ومواد تعليمية باللغة العربية
+                    </p>
+                </div>
+
+                <div class="content-card">
+                    <div class="content-icon">🎬</div>
+                    <h3 class="content-title">المحتوى المرئي</h3>
+                    <p class="content-description">
+                        فيديوهات ومحتوى مرئي عربي متنوع
+                    </p>
+                </div>
+
+                <div class="content-card">
+                    <div class="content-icon">🎙️</div>
+                    <h3 class="content-title">البودكاست</h3>
+                    <p class="content-description">
+                        برامج صوتية ومحتوى مسموع باللغة العربية
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community">
+        <div class="container">
+            <div class="community-content">
+                <h2 class="community-title">انضم إلى مجتمعنا</h2>
+                <p class="community-description">
+                    كن جزءاً من مجتمع المبدعين العرب واساهم في إثراء المحتوى العربي على الإنترنت. نحن نؤمن بقوة التعاون والإبداع الجماعي
+                </p>
+                <div class="community-buttons">
+                    <a href="#contact" class="btn btn-primary">انضم الآن</a>
+                    <a href="#about" class="btn btn-secondary">تعرف على المجتمع</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">ابدأ رحلتك في دعم المحتوى العربي</h2>
+                <p class="cta-description">
+                    انضم إلينا اليوم وساهم في بناء مستقبل أفضل للمحتوى العربي على الإنترنت
+                </p>
+                <a href="#contact" class="btn btn-cta">ابدأ الآن</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">📚</span>
+                        <span class="logo-text">الويب العربي</span>
+                    </div>
+                    <p class="footer-description">
+                        ندعم المحتوى العربي على الإنترنت ونساهم في إثرائه
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#content">المحتوى</a></li>
+                        <li><a href="#community">المجتمع</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">الدعم</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">مركز المساعدة</a></li>
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3 class="footer-title">تابعنا</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">فيسبوك</a></li>
+                        <li><a href="#">لينكد إن</a></li>
+                        <li><a href="#">يوتيوب</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 الويب العربي. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMobileMenu() {
+            const mobileNav = document.getElementById('mobileNav');
+            mobileNav.classList.toggle('active');
+        }
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-mobile .nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobileNav').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>

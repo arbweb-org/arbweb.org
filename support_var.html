@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المساهمة عبر USDT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        }
+
+        body {
+            background: #ffffff;
+            min-height: 100vh;
+            padding: 30px 20px;
+            color: #1a1a1a;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 8px;
+        }
+
+        .qr-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .qr-code {
+            width: 220px;
+            height: 220px;
+            margin: 0 auto 20px;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+        }
+
+            .qr-code img {
+                width: 100%;
+                height: 100%;
+                display: block;
+            }
+
+        .network-tag {
+            display: inline-block;
+            background: #8247e5;
+            color: white;
+            padding: 6px 16px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .label {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+
+        .address-box {
+            background: #f8f8f8;
+            border: 1px solid #e5e5e5;
+            border-radius: 8px;
+            padding: 14px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+
+        .address-text {
+            font-family: 'Courier New', monospace !important;
+            font-size: 12px;
+            color: #1a1a1a;
+            overflow: hidden;
+            line-height: 1.6;
+            flex: 1;
+        }
+
+        .copy-link {
+            color: #0066CC;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+
+            .copy-link:active {
+                opacity: 0.6;
+            }
+
+        .copy-btn {
+            width: 100%;
+            background: #1a1a1a;
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+            display: none;
+        }
+
+            .copy-btn:active {
+                background: #333;
+            }
+
+        .notice {
+            background: #fff9e6;
+            border: 1px solid #f5d865;
+            border-radius: 8px;
+            padding: 14px;
+            margin-top: 25px;
+        }
+
+        .notice-text {
+            color: #7c6b2f;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .success-message {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 12px;
+            display: none;
+            font-size: 14px;
+            text-align: center;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>المساهمة عبر USDT</h1>
+        </div>
+
+        <div class="qr-section">
+            <div class="qr-code">
+                <img src="QR.png" alt="QR Code">
+            </div>
+            <span class="network-tag">Polygon Network</span>
+        </div>
+
+        <div class="section">
+            <div class="label">عنوان المحفظة</div>
+            <div class="address-box">
+                <div class="address-text" id="walletAddress">0x819749B253a1747B3A64FcEFAd3b003c52504B65</div>
+                <a class="copy-link" onclick="copyAddress()">نسخ</a>
+            </div>
+        </div>
+
+        <div class="success-message" id="successMessage">
+            تم نسخ العنوان بنجاح ✓
+        </div>
+
+        <div class="notice">
+            <p class="notice-text">
+                تأكد من اختيار شبكة Polygon عند الإرسال. إرسال USDT على شبكة مختلفة قد يؤدي لفقدان الأموال.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function copyAddress() {
+            const address = document.getElementById('walletAddress').textContent;
+            navigator.clipboard.writeText(address).then(function () {
+                const successMsg = document.getElementById('successMessage');
+                successMsg.style.display = 'block';
+
+                setTimeout(function () {
+                    successMsg.style.display = 'none';
+                }, 3000);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعم التطبيق</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #1a202c;
+        }
+
+        .container {
+            max-width: 480px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            color: #1a202c;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .header p {
+            color: #718096;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .donation-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .donation-btn {
+            background: #ffffff;
+            border: 1.5px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .donation-btn:hover {
+            border-color: #cbd5e0;
+            background: #f7fafc;
+        }
+
+        .donation-btn:active {
+            background: #edf2f7;
+        }
+
+        .btn-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex: 1;
+        }
+
+        .btn-icon {
+            font-size: 20px;
+        }
+
+        .btn-text {
+            font-size: 15px;
+            color: #2d3748;
+            font-weight: 500;
+            text-align: right;
+        }
+
+        .btn-price {
+            color: #4299e1;
+            font-size: 16px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .footer-text {
+            text-align: center;
+            color: #a0aec0;
+            font-size: 13px;
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 22px;
+            }
+
+            .btn-text {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>دعم التطبيق</h1>
+            <p>ساهم في تطوير التطبيق واستمراره</p>
+        </div>
+
+        <div class="donation-buttons">
+            <a href="https://onei.la/UHd" class="donation-btn">
+                <div class="btn-content">
+                    <span class="btn-icon">☕</span>
+                    <span class="btn-text">أرسل فنجان قهوة صغير للمطور</span>
+                </div>
+                <span class="btn-price">$3</span>
+            </a>
+
+            <a href="https://onei.la/vuX" class="donation-btn">
+                <div class="btn-content">
+                    <span class="btn-icon">🍵</span>
+                    <span class="btn-text">أرسل فنجان قهوة كبير للمطور</span>
+                </div>
+                <span class="btn-price">$6</span>
+            </a>
+
+            <a href="https://onei.la/2FT" class="donation-btn">
+                <div class="btn-content">
+                    <span class="btn-icon">🫖</span>
+                    <span class="btn-text">أرسل إبريق قهوة للمطور</span>
+                </div>
+                <span class="btn-price">$15</span>
+            </a>
+
+            <a href="https://arbweb.org/support_var.html" class="donation-btn">
+                <div class="btn-content">
+                    <span class="btn-icon">💝</span>
+                    <span class="btn-text">أرسل مساهمة مخصصة</span>
+                </div>
+                <span class="btn-price">...</span>
+            </a>
+        </div>
+
+        <p class="footer-text">
+            شكراً لدعمك المستمر
+        </p>
+    </div>
+</body>
+</html>
